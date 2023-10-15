@@ -71,6 +71,18 @@
                                             </div>
                                         </div>
 
+                                        <div class="col-span-3 sm:col-span-4">
+                                            <x-input-label for="name" value="Nome" />
+                                            <div class="mt-1">
+                                                <x-text-input
+                                                    type="text"
+                                                    id="name"
+                                                    name="name"
+                                                    placeholder="Maria Joaquina da Silva"
+                                                />
+                                            </div>
+                                        </div>
+
 
                                         <div class="col-span-2 sm:col-span-3">
                                             <x-input-label for="expiration-date" value="Validade do cartão" />
